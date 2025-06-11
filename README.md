@@ -106,18 +106,20 @@ instead of simply explaining APIs.
 
 # Repository Structure
 
+## Part I — Architecture & Design
+
 ```
 01 - Thinking Like a Backend Engineer
 
 02 - Understanding the Business Domain
 
-03 - Designing the Folder Structure
+03 - Designing the Project Structure
 
-04 - Request Lifecycle
+04 - Understanding the Request Lifecycle
 
-05 - Authentication
+05 - Authentication Architecture
 
-06 - Authorization
+06 - Authorization Architecture
 
 07 - Controllers
 
@@ -125,7 +127,14 @@ instead of simply explaining APIs.
 
 09 - Repositories
 
-10 - Database Design
+10 - Database Architecture
+    ├── 10.01 - Thinking in Entities
+    ├── 10.02 - Designing Relationships
+    ├── 10.03 - Complete ER Diagram
+    ├── 10.04 - Primary Keys & Foreign Keys
+    ├── 10.05 - Constraints & Indexes
+    ├── 10.06 - Soft Deletes & Audit Fields
+    └── 10.07 - Senior Database Design Review
 
 11 - Transactions
 
@@ -133,19 +142,71 @@ instead of simply explaining APIs.
 
 13 - Background Jobs
 
-14 - Error Handling
+14 - Validation Strategy
 
-15 - Validation
+15 - Error Handling Strategy
 
-16 - Logging
+16 - Logging & Observability
 
-17 - Scaling
+17 - Scalability & Stateless Backend Design
 
-18 - Refactoring
+18 - Production Architecture Review
+```
 
-19 - Production Practices
+---
 
-20 - Building the Complete Clinic Backend
+## Part II — Production Implementation
+
+```
+01 - Project Initialization
+
+02 - Creating the Express Application
+
+03 - Environment Configuration
+
+04 - Project Configuration
+
+05 - Logging
+
+06 - Error Handling
+
+07 - Database Connection
+
+08 - Authentication
+
+09 - Authorization
+
+10 - Prisma Schema
+
+11 - Models & Shared Types
+
+12 - Validation
+
+13 - Middleware
+
+14 - Routes
+
+15 - Controllers
+
+16 - Services
+
+17 - Repositories
+
+18 - Transactions
+
+19 - Caching
+
+20 - Background Jobs
+
+21 - File Uploads
+
+22 - Notifications
+
+23 - Testing
+
+24 - Deployment
+
+25 - Building the Complete Clinic Backend
 ```
 
 ---
